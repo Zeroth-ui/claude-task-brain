@@ -1,34 +1,30 @@
 # Claude Task Brain 🧠
 
-A persistent memory + adaptive planning system that turns Claude into a long-term intelligent task manager.
+A high-performance Claude skill that adds:
+- Persistent memory simulation
+- Adaptive planning
+- Execution-focused behavior
 
-## Features
-- 🧠 Semantic memory (goals, habits, history)
-- 📅 Automatic goal → plan breakdown
-- ⚡ Daily execution system
-- 🔁 Adaptive planning (adjusts based on progress)
-- 🎯 Focus mode (strict, step-by-step guidance)
+## Install
 
-## Example
-User: "I want to score A+ in every exam"
+1. Download `task-brain.md`
+2. Paste into your Claude Skills
+3. Activate with commands like:
+   - /plan
+   - /focus
+   - /progress
 
-→ Generates full study plan  
-→ Tracks progress daily  
-→ Adapts based on performance  
+## Skill File
+Located in:
+skills/task-brain.md
 
-## Commands
-/focus  
-/plan  
-/progress  
-/reset  
+## Why this exists
+Claude is smart, but it doesn’t:
+- Track long-term goals
+- Adapt plans over time
+- Force execution
 
-## Tech
-- Python
-- FAISS / Chroma
-- SQLite / PostgreSQL
-
-## Setup
-```bash
+This fixes that.
 git clone https://github.com/your-username/claude-task-brain.git
 cd claude-task-brain
 pip install -r requirements.txt

@@ -25,7 +25,6 @@ Claude is smart, but it doesn’t:
 - Force execution
 
 This fixes that.
-git clone https://github.com/your-username/claude-task-brain.git
 cd claude-task-brain
 pip install -r requirements.txt
 python app.py
